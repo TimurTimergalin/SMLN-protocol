@@ -181,7 +181,8 @@
 ```
 {
     "name": <string>,
-    "token": <string>
+    "token": <string>,
+    "size": <int>
 }
 ```
 
