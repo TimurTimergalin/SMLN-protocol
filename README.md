@@ -401,7 +401,8 @@
     "args":
     {
         "receiver-id": <int>,
-    	"message": <client-message>,
+    	"message-for-receiver": <client-message>,  // сообщение, зашифрованное открытым ключом получателя
+        "message-for-sender": <client-message>  // сообщение, зашифрованное открытым ключом отправителя
     }
 }
 ```
